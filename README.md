@@ -1,6 +1,6 @@
 # MedBase Lite - React 19 Healthcare SaaS Boilerplate
 
-![MedBase Lite Presentation](https://xappablestudios.com/assets/medbase-cover-github.webp) <!-- Make sure to replace this link with a real image when you upload it -->
+![MedBase Lite Presentation](./.github/assets/medbase-hero.png)
 
 **MedBase Lite** is an enterprise-grade boilerplate designed to accelerate the development of clinical applications, booking systems, and medical practice software. Built with React 19 and Tailwind CSS v4, this Starter Kit demonstrates a clean, Feature-Driven Architecture (FDA).
 
