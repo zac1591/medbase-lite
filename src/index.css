@@ -1,0 +1,67 @@
+@import "tailwindcss";
+@custom-variant dark (&:is(.dark *));
+
+/* Personalization of the theme for your Medical Dashboard */
+@theme {
+  /* Brand colors - Clean tones (Blue) */
+  --color-primary-50: #f0f9ff;
+  --color-primary-100: #e0f2fe;
+  --color-primary-500: #0ea5e9; 
+  --color-primary-600: #0284c7;
+  
+  /* Surfaces for native Dark/Light mode */
+  --color-surface-light: #ffffff;
+  --color-surface-dark: #0f172a;
+  --color-surface-muted: #1e293b;
+  
+  /* Semantic colors for medical use (Vital signs, statuses) */
+  --color-alert-success: #10b981;
+  --color-alert-critical: #ef4444;
+  --color-alert-warning: #f59e0b;
+
+  /* DArk mode variant colors */
+  --color-background-app: var(--background-app);
+  --color-text-main: var(--text-main);
+
+  /* You can configure your main font here */
+  --font-sans: 'Inter', system-ui, sans-serif;
+}
+
+/* Light Mode (Default) */
+:root {
+  --background-app: #f8fafc; /* slate-50 */
+  --text-main: #0f172a;      /* slate-900 */
+}
+
+/* Dark Mode */
+.dark {
+  --background-app: #0f172a; /* slate-900 */
+  --text-main: #f1f5f9;      /* slate-100 */
+}
+
+/* Global base rules */
+@layer base {
+  body {
+    @apply bg-[color:var(--background-app)] text-[color:var(--text-main)] transition-colors duration-300;
+  }
+}
+
+/* Elegant Custom Scrollbar */
+.elegant-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(148, 163, 184, 0.3) transparent;
+}
+.elegant-scrollbar::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+.elegant-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+.elegant-scrollbar::-webkit-scrollbar-thumb {
+  background-color: rgba(148, 163, 184, 0.3);
+  border-radius: 9999px;
+}
+.elegant-scrollbar::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(148, 163, 184, 0.5);
+}
