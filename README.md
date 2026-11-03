@@ -43,7 +43,7 @@
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/your-username/medbase-lite.git](https://github.com/your-username/medbase-lite.git)
+    git clone [https://github.com/zac1591/medbase-lite.git](https://github.com/zac1591/medbase-lite.git)
     cd medbase-lite
     ```
 
@@ -63,7 +63,7 @@
 
 Looking for a custom implementation for your clinic, agency, or healthcare startup? At **Xappable Studios** we offer full-stack development and SaaS architecture services based on MedBase[cite: 1, 2]. 
 
-Contact us at [hello@xappablestudios.com](mailto:hello@xappablestudios.com) or visit our [official website](https://xappablestudios.com)[cite: 1, 2].
+Contact us at [hello@xappablestudios.com](mailto:hello@xappablestudios.com) or visit our [official website](https://xappablestudios.com).
 
 ## 📄 License
 
